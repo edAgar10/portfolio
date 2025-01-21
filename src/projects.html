@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Projects</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+<div id="header">
+	<span style="cursor:pointer" class="openbtn" id="sideButton">&#9776;</span>
+	<span style="cursor:pointer" class="openbtn" id="homeButton">&#8962;</span>
+	<div id="sidenav">
+		<button href="index.html">Home</button>
+		<button href="projects.html">Projects</button>
+	</div>
+	<script type="text/javascript">
+		$("#sidenav").hide();
+	</script>
+	<div style="display: inline-flex; align-items: center; margin: 1%; float: right;">
+		<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-envelope" viewBox="0 0 16 16">
+			<path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+		</svg>
+		<p2> :edward10agar@gmail.com</p1>
+	</div>
+
+</div>
+	
+
+
+
+<div id = "clickArea"></div>
+
+<h1 style="padding: 0; display: flex; justify-content: center; margin-bottom: 1%; margin-top: 10%; opacity: 0;">Projects</h1>
+
+<div id="projectPage" style="display: flex; flex-flow: column; opacity: 0;">
+
+
+<section class="projectContainer">
+	<div class="sliderWrapper" align="center-left">
+		<h2 style="text-align: center;">Pizza Business Incremental</h2>
+		<div class="slider1">
+			<img id="image-6" src="Images/6.PNG" width="30%" height="25%">
+			<img id="image-7" src="Images/7.PNG" width="30%" height="25%">
+		</div>
+		<div class="slider-nav" align="center">
+			<a href="#image-6"></a>
+			<a href="#image-7"></a>
+		</div>
+	</div>
+	
+	<div class="text" align="right">
+		<p1> Incremental web game currently in development based on running a pizza delivery service. This project stemmed from developing
+			a solar system model with orbits and lighting using Javascript and OpenGL shaders, with the idea of spreading the business across different planets.
+			The main game consists of producing and managing different pizza ingredients so that you can fulfil orders, make money and buy upgrades.
+			The project is built with scalability in mind, so that new ingredients and building types can be added as necessary. Currently 
+			working on the order system and allowing building placement on planets.
+		</p1>
+		<div class="pageButton">
+			<button class="buttons" href="https://github.com/edAgar10/Pizza-Incremental">Github</button>
+		</div>
+	</div>
+	
+
+</section>
+
+<section class="projectContainer">
+	<div class="sliderWrapper" align="center-left">
+		<h2 style="text-align: center;">Rubiks Cube</h2>
+		<div class="slider1">
+			<img id="image-6" src="Images/3.PNG" width="30%" height="25%">
+		</div>
+	</div>
+	
+	<div class="text" align="right">
+			<p1> Simple Rubik's Cube simulation as shown on the home page. While a smaller project, this helped improve my knowledge of the
+				OpenGL rendering pipeline through use of shaders and post-processing, as well as general 3D maths. Working on improving controls
+				to allow for different rotations as well as adding rotation animations. While mostly developed for visuals, potential for automatic solving/shuffle in
+				future development. 
+			</p1>
+			<div class="pageButton">
+				<button class="buttons" href="https://github.com/edAgar10/Rubiks-Cube">Github</button>
+			</div>
+	</div>
+
+</section>
+
+
+<section class="projectContainer">
+	<div class="sliderWrapper" align="center-left">
+		<h2 style="text-align: center;">Island World Generator Prototype</h2>
+		<div class="slider1">
+			<img id="image-1" src="Images/1.png" width="30%" height="25%">
+			<img id="image-2" src="Images/2.png" width="30%" height="25%">
+		</div>
+		<div class="slider-nav" align="center">
+			<a href="#image-1"></a>
+			<a href="#image-2"></a>
+		</div>
+	</div>
+	
+	<div class="text" align="right">
+			<p1> Work in progress prototype for a pirate game based on classic roguelikes made in Godot. Generates a world map with different islands using perlin noise,
+				with the player sailing between different islands. Also includes a 2D grid based movement system for walking off the ship, as well as A* pathfinding
+				around obstacles and solid blocks. Currently working on turn based combat as well as building on the island generation with techniques like wave function 
+				collapse. Also considering transferring the code base to a 3D environment for use in a different project.
+			</p1>
+			<div class="pageButton">
+				<button class="buttons" href="https://github.com/edAgar10/ShipGame">Github</button>
+			</div>
+	</div>
+
+</section>
+
+<section class="projectContainer">
+
+	<div class="sliderWrapper" align="center-left">
+		<h2 style="text-align: center;">Machine Learning Image Generator</h2>
+		<div class ="slider1">
+			<img id="image-4" src="Images/4.png" width="30%" height="25%">
+			<img id="image-5" src="Images/5.png" width="30%" height="25%">
+		</div>
+		<div class="slider-nav" align="center">
+			<a href="#image-4"></a>
+			<a href="#image-5"></a>
+		</div>
+		
+	</div>
+	
+	<div class="text" align="right">
+			<p1>Dissertation project to make a generative adversarial network that can take a dataset of pictures and output generated images.
+				The pictures shown use a dataset of abstract and classical artwork, however a tagged database could be used to make more consistent
+				imagery. Written in Python using Pytorch for machine learning and NumPy for graph plotting. 
+			</p1>
+			<div class="pageButton">
+				<button class="buttons" href="https://github.com/edAgar10/DCGAN">Github</button>
+			</div>
+	</div>
+
+</section>
+
+</div>
+
+<script>
+$(document).ready(function() {
+	$("#sidenav").hide();
+	$("#projectPage").animate({marginTop: "-=50px", opacity: 1}, { duration: 1500, queue: true});
+	$("h1").animate({opacity: 1}, { duration: 1500, queue: true});
+
+});
+
+var sideNavOpen = false;
+
+function toggleNav() {
+	$("#sidenav").slideToggle(1000);
+	sideNavOpen = !sideNavOpen
+};
+
+$("#sideButton").click(function() {
+	toggleNav()
+});
+
+$("#homeButton").on("click", async function() {
+	$("#projectPage").animate({marginTop: "+=50px", opacity: 0}, { duration: 1500, queue: true}).promise();
+	$("h1").animate({opacity: 0}, { duration: 1500, queue: true});
+	location.href = "index.html"
+});
+
+$("#clickArea").click(function() {
+	if (sideNavOpen == true) {
+		toggleNav()
+	}
+});
+
+$("button").on("click", async function() {
+	if (sideNavOpen == true) {
+		$("#sidenav").hide();
+	}
+	var currentLink = $(this).attr("href");
+	$("#projectPage").animate({marginTop: "+=50px", opacity: 0}, { duration: 1500, queue: true}).promise();
+	$("h1").animate({opacity: 0}, { duration: 1500, queue: true});
+	document.location.href = currentLink
+
+});
+
+</script>
+</body>
+
+</html>
